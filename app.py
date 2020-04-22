@@ -3,6 +3,7 @@ import time
 import redis, os
 from flask import Flask
 
+
 app = Flask(__name__)
 
 REDIS_HOST = os.getenv('REDIS_HOST')
